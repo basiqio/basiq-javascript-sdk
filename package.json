@@ -1,5 +1,5 @@
 {
-  "name": "basiq_api",
+  "name": "@basiq/basiq-javascript-sdk",
   "version": "2.0.0",
   "description": "",
   "license": "Unlicense",
