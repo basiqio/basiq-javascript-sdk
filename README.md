@@ -1,6 +1,6 @@
 # Basiq Javascript SDK 
 
-Use our JavaScript SDK to integrate with the Basiq API 
+This SDK is here to accelerate your integration with the Basiq API. You can check out the full docs for this SDK at [GitHub](https://github.com/basiqio/basiq-javascript-sdk/), or head to [our website](https://basiq.io/) to learn more about Basiq. 
 
 ## Installation
 Install this package using `npm` 
@@ -14,12 +14,12 @@ npm install @basiq/basiq-javascript-sdk
 1. Create an instance of the Basiq API object
 
 ```javascript
-var BasiqApi = require('basiq_api');
+var BasiqApi = require('@basiq/basiq-javascript-sdk');
 
 var defaultClient = BasiqApi.ApiClient.instance;
 ```
 
-2. Authenticate by setting your [access token](docs/TokenApi.md#postToken)
+2. Authenticate by setting your access token (see postToken method)
 
 ```javascript
 var application = defaultClient.authentications['application'];

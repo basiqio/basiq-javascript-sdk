@@ -19,7 +19,7 @@ Permanently deletes an auth_link resource. Once deleted the URL associated with 
 
 ### Example
 ```javascript
-var BasiqApi = require('basiq_api');
+var BasiqApi = require('@basiq/basiq-javascript-sdk');
 var defaultClient = BasiqApi.ApiClient.instance;
 
 // Configure OAuth2 access token for authorization: application
@@ -70,7 +70,7 @@ Returns the latest/last auth_link generated for the specified user. Returns an e
 
 ### Example
 ```javascript
-var BasiqApi = require('basiq_api');
+var BasiqApi = require('@basiq/basiq-javascript-sdk');
 var defaultClient = BasiqApi.ApiClient.instance;
 
 // Configure OAuth2 access token for authorization: application
@@ -121,7 +121,7 @@ Create a new auth_link object by making a POST request to the auth_link endpoint
 
 ### Example
 ```javascript
-var BasiqApi = require('basiq_api');
+var BasiqApi = require('@basiq/basiq-javascript-sdk');
 var defaultClient = BasiqApi.ApiClient.instance;
 
 // Configure OAuth2 access token for authorization: application

@@ -18,7 +18,7 @@ Use this to create a new user object.
 
 ### Example
 ```javascript
-var BasiqApi = require('basiq_api');
+var BasiqApi = require('@basiq/basiq-javascript-sdk');
 var defaultClient = BasiqApi.ApiClient.instance;
 
 // Configure OAuth2 access token for authorization: application
@@ -69,7 +69,7 @@ Permanently deletes a user along with all of their associated connection details
 
 ### Example
 ```javascript
-var BasiqApi = require('basiq_api');
+var BasiqApi = require('@basiq/basiq-javascript-sdk');
 var defaultClient = BasiqApi.ApiClient.instance;
 
 // Configure OAuth2 access token for authorization: application
@@ -118,7 +118,7 @@ Retrieves the details of an existing user. You need only supply the unique user 
 
 ### Example
 ```javascript
-var BasiqApi = require('basiq_api');
+var BasiqApi = require('@basiq/basiq-javascript-sdk');
 var defaultClient = BasiqApi.ApiClient.instance;
 
 // Configure OAuth2 access token for authorization: application
@@ -167,7 +167,7 @@ Updates the specified user by setting the values of the parameters passed. Any p
 
 ### Example
 ```javascript
-var BasiqApi = require('basiq_api');
+var BasiqApi = require('@basiq/basiq-javascript-sdk');
 var defaultClient = BasiqApi.ApiClient.instance;
 
 // Configure OAuth2 access token for authorization: application

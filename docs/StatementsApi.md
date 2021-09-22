@@ -17,7 +17,7 @@ A user can choose to share their financial data by uploading official pdf bank s
 
 ### Example
 ```javascript
-var BasiqApi = require('basiq_api');
+var BasiqApi = require('@basiq/basiq-javascript-sdk');
 var defaultClient = BasiqApi.ApiClient.instance;
 
 // Configure OAuth2 access token for authorization: application

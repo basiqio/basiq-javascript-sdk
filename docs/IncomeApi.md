@@ -16,7 +16,7 @@ Retrieves the details of an income summary. You need only supply the unique inco
 
 ### Example
 ```javascript
-var BasiqApi = require('basiq_api');
+var BasiqApi = require('@basiq/basiq-javascript-sdk');
 var defaultClient = BasiqApi.ApiClient.instance;
 
 // Configure OAuth2 access token for authorization: application
@@ -68,7 +68,7 @@ Use this to create a new income report.
 
 ### Example
 ```javascript
-var BasiqApi = require('basiq_api');
+var BasiqApi = require('@basiq/basiq-javascript-sdk');
 var defaultClient = BasiqApi.ApiClient.instance;
 
 // Configure OAuth2 access token for authorization: application

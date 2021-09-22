@@ -18,7 +18,7 @@ You need only supply the unique transaction identifier.
 
 ### Example
 ```javascript
-var BasiqApi = require('basiq_api');
+var BasiqApi = require('@basiq/basiq-javascript-sdk');
 var defaultClient = BasiqApi.ApiClient.instance;
 
 // Configure OAuth2 access token for authorization: application
@@ -72,7 +72,7 @@ The transactions are returned sorted by account and then posted date descending 
 
 ### Example
 ```javascript
-var BasiqApi = require('basiq_api');
+var BasiqApi = require('@basiq/basiq-javascript-sdk');
 var defaultClient = BasiqApi.ApiClient.instance;
 
 // Configure OAuth2 access token for authorization: application

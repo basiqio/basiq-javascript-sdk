@@ -17,7 +17,7 @@ Use this endpoint to retrieve token that will be passed as authorization header 
 
 ### Example
 ```javascript
-var BasiqApi = require('basiq_api');
+var BasiqApi = require('@basiq/basiq-javascript-sdk');
 var defaultClient = BasiqApi.ApiClient.instance;
 
 // Configure API key authorization: api_key
@@ -48,7 +48,7 @@ apiInstance.postToken(basiqVersion, opts, callback);
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **basiqVersion** | **String**|  | 
- **scope** | **String**|  | [optional] 
+ **scope** | **String**|  | Defaults to server scope 
 
 ### Return type
 
