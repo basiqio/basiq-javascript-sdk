@@ -6,7 +6,7 @@ Use our JavaScript SDK to integrate with the Basiq API
 Install this package using `npm` 
 
 ```shell
-npm install basiq-javascript-sdk
+npm install @basiq/basiq-javascript-sdk
 ```
 
 ## Usage
