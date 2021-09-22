@@ -23,15 +23,14 @@ var defaultClient = BasiqApi.ApiClient.instance;
 // Configure API key authorization: api_key
 var api_key = defaultClient.authentications['api_key'];
 api_key.apiKey = 'YOUR API KEY';
-// Uncomment the following line to set a prefix for the API key, e.g. "Token" (defaults to null)
-//api_key.apiKeyPrefix = 'Token';
+api_key.apiKeyPrefix = 'Basic';
 
 var apiInstance = new BasiqApi.TokenApi();
 
-var basiqVersion = "basiqVersion_example"; // String | 
+var basiqVersion = "2.0"; // String | 
 
 var opts = { 
-  'scope': "scope_example" // String | 
+  'scope': "SERVER_ACCESS" // String | 
 };
 
 var callback = function(error, data, response) {

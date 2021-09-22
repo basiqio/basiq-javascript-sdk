@@ -250,6 +250,6 @@ Class | Method | HTTP request | Description
 - **Flow**: application
 - **Authorization URL**: 
 - **Scopes**: 
-  - SERVER_ACCESS: Server access scope
-  - CLIENT_ACCESS: Client access scope
+  - SERVER_ACCESS: MUST only be used when making server side calls. If calls on the client side are made with this access token you are creating security 
+  - CLIENT_ACCESS: This token has restricted access and only allows the creation or update of a connection. If an attacker intercepts a request and steals your CLIENT_ACCESS token, the risk is mitigated as they will not be able to get your users' data.
 
